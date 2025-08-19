@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Akdeniz - Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">UA</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link">Hakkımda</a></li>
+                <li><a href="#education" class="nav-link">Eğitim</a></li>
+                <li><a href="#skills" class="nav-link">Yetenekler</a></li>
+                <li><a href="#experience" class="nav-link">Deneyim</a></li>
+                <li><a href="#projects" class="nav-link">Projeler</a></li>
+                <li><a href="#contact" class="nav-link">İletişim</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <!-- JavaScript will fill this dynamically -->
+                    </h1>
+                    <p class="hero-subtitle">Junior Software Developer</p>
+                    <p class="hero-description">
+                        .NET ve C# teknolojileri üzerine uzmanlaşıyor, modern web çözümleri geliştiriyorum.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Projelerimi Gör</a>
+                        <a href="#" class="btn btn-secondary" id="download-cv">
+                            <i class="fas fa-download"></i> CV İndir
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar">
+                        <div class="avatar-border">
+                            <div class="avatar-inner with-photo">
+                                <i class="fas fa-user"></i>
+                                <!-- Profil fotoğrafı CSS ile yüklenecek -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/umutakdnz" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/umut-akdeniz-1a0626294" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:akdenizumut375@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hakkımda</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        23 Temmuz 2005 doğumluyum. Uludağ Üniversitesi Bilgisayar Programcılığı bölümünden 
+                        mezun oldum. Yazılım geliştirme alanında kendimi sürekli geliştirmeye özen gösteriyorum.
+                    </p>
+                    <p class="about-description">
+                        Özellikle ASP.NET, ASP.NET Core, C#, MS SQL ve MySQL teknolojileri 
+                        üzerine yoğunlaşarak projeler geliştiriyorum. Yenilikçi, etkili ve sürdürülebilir 
+                        yazılım çözümleri üretmeyi amaçlıyorum.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-content">
+                                <span class="info-label">E-posta</span>
+                                <span class="info-value">akdenizumut375@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="info-content">
+                                <span class="info-label">Telefon</span>
+                                <span class="info-value">+90 541 677 71 82</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-content">
+                                <span class="info-label">Konum</span>
+                                <span class="info-value">Bursa, Türkiye</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Eğitim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-logo">
+                            <img src="assets/images/uni.jpeg" alt="Uludağ Üniversitesi" loading="lazy">
+                        </div>
+                        <div class="education-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-period">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Ekim 2023 - Haziran 2025</span>
+                        </div>
+                        <h3 class="education-title">Bilgisayar Programcılığı</h3>
+                        <h4 class="education-institution">Uludağ Üniversitesi</h4>
+                        <div class="education-gpa">
+                            <i class="fas fa-star"></i>
+                            <span>GANO: 3.35 / 4.00</span>
+                        </div>
+                        <p class="education-description">
+                            Bilgisayar Programcılığı bölümünde temel bilgisayar bilimleri ve yazılım geliştirme alanlarında kapsamlı bir eğitim aldım. Programlama temelleri, veri yapıları, algoritmalar ve nesne tabanlı programlama üzerine dersler gördüm.
+                        </p>
+                        <div class="education-skills">
+                            <div class="skill-tag">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-database"></i>
+                                <span>MS SQL</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>ASP.NET Core</span>
+                            </div>
+                            <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-logo">
+                            <img src="assets/images/acunmedya.png" alt="Acunmedya Akademi" loading="lazy">
+                        </div>
+                        <div class="education-badge scholarship">
+                            <i class="fas fa-award"></i>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-period">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>Şubat 2025 - Haziran 2025</span>
+                        </div>
+                        <h3 class="education-title">C# ve .Net Core ile Programlama</h3>
+                        <h4 class="education-institution">Acunmedya Akademi</h4>
+                        <div class="education-status">
+                            <i class="fas fa-trophy"></i>
+                            <span>Burslu Eğitim</span>
+                        </div>
+                        <p class="education-description">
+                            Üniversite eğitimime destek amacıyla burslu olarak katıldığım Acunmedya Akademi - C# ve .NET Core Programlama Eğitimi kapsamında, mentörlüğünü Murat Yücedağ'ın yaptığı projeler üzerinde çalıştım. Bu süreçte .NET MVC ve .NET Core MVC mimarileriyle uygulamalar geliştirerek; MSSQL, Database First, Code First yaklaşımları ve LINQ sorguları ile veri tabanı işlemleri gerçekleştirdim.
+                        </p>
+                        <div class="education-skills">
+                            <div class="skill-tag">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>.NET</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-cube"></i>
+                                <span>.NET Core</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-database"></i>
+                                <span>MS SQL</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Entity Framework</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fas fa-lock"></i>
+                                <span>Authentication</span>
+                            </div>
+                            <div class="skill-tag">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Yetenekler & Teknolojiler</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>ASP.NET</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>ASP.NET Core</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Entity Framework</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>MS SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Deneyimler</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer Intern</h3>
+                            <span class="company">AKA Otomotiv San ve Tic A.Ş.</span>
+                            <span class="duration">02/2025 - 06/2025</span>
+                        </div>
+                        <p class="timeline-description">
+                            .NET Framework tabanlı projeler geliştirerek yazılım geliştirme yetkinliğimi artırdım. 
+                            Otomasyon sistemlerinde karşılaşılan sorunlara yönelik çözüm süreçlerini gözlemledim.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Intern Student</h3>
+                            <span class="company">Acunmedya Akademi</span>
+                            <span class="duration">02/2025 - 06/2025</span>
+                        </div>
+                        <p class="timeline-description">
+                            .NET projeleri geliştirdik ve bu alandaki yetkinliklerimizi artırdık. Mentörlüğünü 
+                            Murat Yücedağ'ın yaptığı projeler üzerinde çalıştım.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Backend Developer Intern</h3>
+                            <span class="company">Nilüfer Yazılım Bilişim Hizmetleri</span>
+                            <span class="duration">10/2024 - 01/2025</span>
+                        </div>
+                        <p class="timeline-description">
+                            ASP.NET Core MVC üzerinde çalışarak önemli deneyimler kazandım. Entity Framework, 
+                            Migration, Identity ve JSON gibi teknolojiler üzerinde yetkinlik geliştirdim.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>IT Intern</h3>
+                            <span class="company">Tekaydınlar Minibus Conversion & Bodywork</span>
+                            <span class="duration">07/2024 - 08/2024</span>
+                        </div>
+                        <p class="timeline-description">
+                            Staj sürecimde, OCTO programı üzerinde çalışarak SQL tabanlı veri analizi, sistem testi ve dokümantasyon oluşturma
+                            konularında derinlemesine deneyim kazandım.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projeler</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/project4.png" alt="Dinamik Erkek Kuaför Randevu Sistemi" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Dinamik Erkek Kuaför Randevu Sistemi</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/umutakdnz/RandevuSistemi" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        ASP.NET Core 8 MVC mimarisi kullanılarak geliştirilen dinamik kuaför randevu sistemi. 
+                        AJAX destekli dinamik veri işlemleri ve modern kullanıcı arayüzü.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET Core 8</span>
+                        <span class="tech-tag">Entity Framework</span>
+                        <span class="tech-tag">MSSQL</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">AJAX</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/project3.png" alt="Dinamik Seyahat Acentesi Web Sitesi" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Dinamik Seyahat Acentesi Web Sitesi</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/umutakdnz/AcunMedyaTravelProject" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        ASP.NET MVC ve SQL Server kullanılarak geliştirilen kapsamlı seyahat web sitesi. 
+                        Kullanıcı dostu admin paneli ve modern tasarım.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Entity Framework</span>
+                        <span class="tech-tag">LINQ</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/project2.png" alt="Dinamik Portföy Web Sitesi" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Dinamik Portföy Web Sitesi</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/umutakdnz/AcunMedyaAkademiPortfolio" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        ASP.NET MVC ile geliştirilen kişisel portföy sitesi. CRUD işlemleri ve 
+                        modern arayüzle portföy yönetimi.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Entity Framework</span>
+                        <span class="tech-tag">LINQ</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/project1.png" alt="Stok Takip Otomasyonu" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Stok Takip Otomasyonu</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/umutakdnz/StokTakipOtomasyonu" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Java Swing ile geliştirilen giyim sektörüne yönelik stok takip sistemi. 
+                        Kullanıcı rolleri ve yetkilendirme sistemi.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java Swing</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Desktop App</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/projectt.png" alt="Kurumsal Firma Web Sitesi" loading="lazy">
+                    </div>
+                    <div class="project-header">
+                        <h3 class="project-title">Kurumsal Firma Web Sitesi</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/umutakdnz/KurumsalFirmaWebSitesi" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Bu proje, kullanıcıların firma hakkında bilgi edinmesi, firmanın faaliyet gösterdiği alanları 
+                        öğrenmesi ve iletişime geçmesi amacıyla kurumsal bir web sitesi oluşturmayı hedeflemektedir.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">İletişim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>akdenizumut375@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefon</h4>
+                            <p>+90 541 677 71 82</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Konum</h4>
+                            <p>Bursa, Türkiye</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Adınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Konu" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mesajınız" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Umut Akdeniz. Tüm hakları saklıdır.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/umutakdnz" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/umut-akdeniz-1a0626294" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:akdenizumut375@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-to-top" id="scroll-to-top" title="Yukarı çık">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
